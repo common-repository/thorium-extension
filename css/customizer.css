@@ -1,0 +1,125 @@
+﻿
+.thorium-ext-add-items.button {
+	font-weight:bold;
+	width: 100%;
+    height: auto;
+    min-height: 60px;
+    white-space: normal;
+	margin-top: 12px;
+	background: #ffffff;
+}
+
+.thorium-ext-add-items .thorium-ext-edit {
+	margin-top: 3px;
+}
+.thorium-ext-add-items .thorium-ext-add {
+	margin-top: 5px;
+    margin-right: 3px;
+}
+.thorium-ext-hide {
+	display: none !important;
+}
+.thorium-ext-show {
+	display: list-item !important;
+}
+.thorium-ext-search-change {
+	background-color: #ffffff !important;
+}
+.thorium-ext-search-change:before{
+	font: 400 20px/1 dashicons;
+    speak: none;
+    display: block;
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+}
+
+.thorium-ext-search-change:before {
+	content: "\f347";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin: -15px 0 0 0;
+    color: gray;
+    font-size: 24px;
+    width: 30px;
+    line-height: 30px;
+	opacity: 0.3;
+
+	-webkit-animation-duration: 1s;
+  	animation-duration: 1s;
+  	-webkit-animation-fill-mode: both;
+  	animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+  	animation-iteration-count: infinite;
+	-webkit-animation-name: thorium-ext_slideInDown;
+  	animation-name: thorium-ext_slideInDown;
+}
+@-webkit-keyframes thorium-ext_slideInDown {
+	from {
+		-webkit-transform: translate3d(0, -25%, 0);
+		transform: translate3d(0, -25%, 0);
+		visibility: visible;
+	}
+  	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+@keyframes thorium-ext_slideInDown {
+	from {
+		-webkit-transform: translate3d(0, -25%, 0);
+		transform: translate3d(0, -25%, 0);
+		visibility: visible;
+  	}
+	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+.thorium-ext-search-change > * {
+	opacity: 0;
+}
+.wp-customizer #available-widgets-list.thorium-ext-display-widgets div.widget-tpl.thorium-ext-display-block {
+	display: block !important;
+}
+.wp-customizer #available-widgets-list.thorium-ext-display-widgets div.widget-tpl {
+	display: none !important;
+}
+li[id*=customize-control-sidebars_widgets-section-] .add-new-widget {
+	font-size: 0 !important;
+}
+li[id*=customize-control-sidebars_widgets-section-] .add-new-widget {
+	padding-left: 5px !important;
+}
+li[id*=customize-control-sidebars_widgets-section-] .add-new-widget:after {
+	display: inline-block;
+    content: attr(data-bx-anw-new-title);
+    font-size: 13px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+li[id*=customize-control-sidebars_widgets-section-] .add-new-widget:before {
+	top: 1px;
+	left: auto;
+}
+.thorium-ext-add-items .thorium-ext-add:before {
+	content: "\f132";
+}
+#accordion-panel-thorium_ext_sections_items {
+	visibility: hidden !important;
+}
+#accordion-panel-thorium_ext_sections_items > h3 {
+	display: none;
+}
+#accordion-panel-thorium_ext_sections_items.thorium-ext-display-important {
+	visibility: visible !important;
+}
+.wp-customizer #available-widgets-list > div[class*=thorium_ext_],
+.wp-customizer li[id*=customize-control-widget_thorium_ext_] .move-widget {
+	display: none !important;
+}
